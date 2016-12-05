@@ -6030,7 +6030,7 @@ namespace BMOTD
             {                
                 currentTime = DateTime.Now.ToString("mm:ss");
             }
-            e.Channel.SendMessage("Here is your meme of the hour!");
+            e.Channel.SendMessage("/tts @everyone Here is your meme of the hour!");
             System.Threading.Thread.Sleep(1000);
             e.Channel.SendMessage(memeToPost);
             Console.WriteLine("meme posted");
